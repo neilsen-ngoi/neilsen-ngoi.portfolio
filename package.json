@@ -17,6 +17,7 @@
 		"react-scripts": "4.0.3",
 		"react-scroll": "^1.8.4",
 		"styled-components": "^5.3.3",
+		"vite": "^4.4.9",
 		"web-vitals": "^1.0.1"
 	},
 	"scripts": {
