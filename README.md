@@ -31,20 +31,6 @@
 brew install node
 ```
 
-2. Clone the repo:
-
-```
-git clone https://github.com/realstoman/react-tailwindcss-portfolio.git
-```
-
-3. Open the project folder:
-
-```
-cd react-tailwindcss-portfolio
-```
-
-4. Install packages and dependencies:
-
 ```
 yarn
 ```
@@ -71,11 +57,4 @@ yarn test
 
 -   Always run `yarn install` after pulling new changes
 -   I'll be constantly updating this repo as I'll be adding more sections to it, so please always check the projects section of this repo to see what tasks are under todo and in progress
--   Illustrations from [unDraw](https://undraw.co) and [Freepik](https://freepik.com)
--   Images from [Unsplash](https://unsplash.com)
--   Feel free to use it as your own portfolio
--   Contributions are welcome
 
-### License
-
-[MIT](https://github.com/realstoman/react-tailwindcss-portfolio/blob/main/LICENSE)
