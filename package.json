@@ -10,7 +10,7 @@
 		"build": "run-p build:*",
 		"build:css": "tailwindcss -i src/css/tailwind.css -o public/main.css",
 		"build:client": "vite build",
-    "preview": "vite preview"
+		"preview": "vite preview"
 	},
 	"dependencies": {
 		"@testing-library/jest-dom": "^5.16.5",
