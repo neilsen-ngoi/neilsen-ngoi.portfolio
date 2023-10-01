@@ -13,7 +13,7 @@ const ContactForm = () => {
               .sendForm(
                 'service_mpy5nlr',
                 'template_pgdzm18',
-                form.current,
+                FormInput.current,
                 'l2uyjepPaaca7uClf'
               )
               .then(
