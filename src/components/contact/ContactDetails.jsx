@@ -3,7 +3,7 @@ import { FiPhone, FiMapPin, FiMail } from 'react-icons/fi'
 const contacts = [
   {
     id: 1,
-    name: 'North Shore, Auckland, Your New Zealand',
+    name: 'North Shore, Auckland, New Zealand',
     icon: <FiMapPin />,
   },
   {

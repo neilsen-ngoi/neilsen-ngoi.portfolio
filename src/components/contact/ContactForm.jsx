@@ -1,19 +1,22 @@
 import Button from '../reusable/Button'
 import FormInput from '../reusable/FormInput'
 import emailjs from '@emailjs/browser'
+import { useRef } from 'react'
 
 const ContactForm = () => {
+  const form = useRef()
   return (
     <div className="w-full lg:w-1/2">
       <div className="leading-loose">
         <form
+          ref={form}
           onSubmit={(e) => {
             e.preventDefault()
             emailjs
               .sendForm(
                 'service_mpy5nlr',
                 'template_pgdzm18',
-                FormInput.current,
+                form.current,
                 'l2uyjepPaaca7uClf'
               )
               .then(
