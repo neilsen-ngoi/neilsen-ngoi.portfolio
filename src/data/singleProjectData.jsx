@@ -79,7 +79,7 @@ export const singleProjectData = {
       {
         id: 2,
         details:
-          'The largest hurdles were in the implementation of authentication with the use of the 3rd party service Auth0, then with storing user generated images in an online storage service(cloudinary). Finally the implementation with of testing with the various components of the website to ensure quality user experience.',
+          'The largest hurdles were in the implementation of authentication with the use of the 3rd party service Auth0, then with storing user generated images in an online storage service(cloudinary). Finally the implementation of testing the various components of the website to ensure quality user experience.',
       },
       {
         id: 3,
