@@ -1,40 +1,12 @@
 import { send } from 'vite'
 import Button from '../reusable/Button'
 import FormInput from '../reusable/FormInput'
-import emailjs from '@emailjs/browser'
-import React, { useRef } from 'react'
 
 const ContactForm = () => {
-  const form = useRef()
-
-  const sendEmail = (e) => {
-    e.preventDefault()
-
-    // emailjs
-    //   .sendForm(
-    //     'service_mpy5nlr',
-    //     'template_fn1kjxw',
-    //     form.current,
-    //     'l2uyjepPaaca7uClf'
-    //   )
-    //   .then(
-    //     (result) => {
-    //       console.log(result.text)
-    //     },
-    //     (error) => {
-    //       console.log(error.text)
-    //     }
-    //   )
-  }
-
   return (
     <div className="w-full lg:w-1/2">
       <div className="leading-loose">
-        <form
-          ref={form}
-          onSubmit={sendEmail}
-          className="max-w-xl m-4 p-6 sm:p-10 bg-secondary-light dark:bg-secondary-dark rounded-xl shadow-xl text-left"
-        >
+        <form className="max-w-xl m-4 p-6 sm:p-10 bg-secondary-light dark:bg-secondary-dark rounded-xl shadow-xl text-left">
           <p className="font-general-medium text-primary-dark dark:text-primary-light text-2xl mb-8">
             Contact Form
           </p>
