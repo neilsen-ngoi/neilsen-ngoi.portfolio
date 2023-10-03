@@ -8,31 +8,31 @@ import {
 import AppFooterCopyright from './AppFooterCopyright'
 
 const socialLinks = [
-  {
-    id: 1,
-    icon: <FiGlobe />,
-    url: '',
-  },
+  // {
+  //   id: 1,
+  //   icon: <FiGlobe />,
+  //   url: '',
+  // },
   {
     id: 2,
     icon: <FiGithub />,
     url: 'https://github.com/neilsen-ngoi',
   },
-  {
-    id: 3,
-    icon: <FiTwitter />,
-    url: '',
-  },
+  // {
+  //   id: 3,
+  //   icon: <FiTwitter />,
+  //   url: '',
+  // },
   {
     id: 4,
     icon: <FiLinkedin />,
     url: 'https://www.linkedin.com/in/neilsen-ngoi-a046ab82',
   },
-  {
-    id: 5,
-    icon: <FiYoutube />,
-    url: '',
-  },
+  // {
+  //   id: 5,
+  //   icon: <FiYoutube />,
+  //   url: '',
+  // },
 ]
 
 const AppFooter = () => {
