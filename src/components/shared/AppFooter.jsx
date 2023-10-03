@@ -11,7 +11,7 @@ const socialLinks = [
   {
     id: 1,
     icon: <FiGlobe />,
-    // url: 'https://www.stoman.me/',
+    url: '',
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const socialLinks = [
   {
     id: 3,
     icon: <FiTwitter />,
-    // url: 'https://twitter.com/realstoman',
+    url: '',
   },
   {
     id: 4,
@@ -31,7 +31,7 @@ const socialLinks = [
   {
     id: 5,
     icon: <FiYoutube />,
-    url: 'https://www.youtube.com/c/realstoman',
+    url: '',
   },
 ]
 
