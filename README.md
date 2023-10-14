@@ -16,6 +16,7 @@
 -   Back to top button
 -   Download file button
 -   Simple and responsive design
+-   Cool
 
 
 
