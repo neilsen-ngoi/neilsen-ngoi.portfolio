@@ -1,14 +1,14 @@
 export const aboutMeData = [
   {
     id: 1,
-    bio: `An adventurer with a thirst to always discover whats aroud the next corner, I jumped into web development and haven't looked back since
-    You'll usual find me mapping out a new location, or engaging with the culture of any location I find myself in, looking at the big picture 
-    while enjoying the little details`,
+    bio: `Passionate adventurer turned web developer, always seeking the next discovery. Whether mapping out new digital territories or immersing myself in diverse cultures, I thrive on the big picture while cherishing the details.
+
+    A natural problem solver, I tackle challenges with enthusiasm, making life easier for all. As a team player, I gladly take on leadership roles, bringing good energy and vibes to group environments. Detail-oriented and goal-focused, I navigate deadlines without sacrificing precision.
+    
+    In the world of web development, I find joy in both the journey and the destination, embracing challenges with a positive mindset and a commitment to continual learning.`,
   },
   {
     id: 2,
-    bio: `A natural problem solver, I enjoy the challenge of solving issues to make life easier for everyone, I'm a team player and not afraid to
-    take on leadership roles. I've been told I bring good energy and vibes to group working enviornments. Attentive and goal oriented I don't skip
-    out on little details even as I focus on reaching deadlines`,
+    bio: ``,
   },
 ]
